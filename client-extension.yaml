@@ -1,0 +1,8 @@
+assemble:
+    - from: build/static
+      into: static
+liferay-loading-poller-js-import-maps-entry:
+    bareSpecifier: loadingPoller
+    name: Liferay Loading Poller JS Import Maps Entry
+    type: jsImportMapsEntry
+    url: js/main.*.js
